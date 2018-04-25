@@ -1,5 +1,7 @@
 # Pixel Art Maker Project
 
+This was the Udacity Google Scholarship Phase 1 - Project 3 - use jQuery to build a Pixel Art Maker. Information below.
+
 ## Table of Contents
 
 * [Instructions](#instructions)
