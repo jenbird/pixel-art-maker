@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        <div>
+          Grid Height:
+          <input type="number" id="input_height" name="height" min="1" max="75" value="1">
+          <em>(75 max)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+          Grid Width:
+          <input type="number" id="input_width" name="width" min="1" max="75" value="1">
+          <em>(75 max)</em>&nbsp;&nbsp;&nbsp;
+          <input type="submit" id="submitButton" value="Create!">&nbsp;&nbsp;&nbsp;<input type="button" id="refreshButton" value="Start again">
+        </div>
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker" value="#F28500">&nbsp;&nbsp;&nbsp;<input type="button" id="clearCanvas" value="Clear canvas">&nbsp;&nbsp;&nbsp;<input type="button" id="toggleLines" value="Grid on/off">
+
+    <div id="canvas">
+    <h2>Design Canvas</h2>
+    <table id="pixel_canvas"></table>
+    </div>
+
+    <div id="footer">
+    <p>Created by: <a href="https://www.linkedin.com/in/jennifersmithuk">
+      Jennifer Smith</a> as part of the <a href="https://www.udacity.com/grow-with-google">
+      Udacity Google Challenge</a>.</p>
+    </div>
+    <script src="designs.js"></script>
+</body>
+</html>

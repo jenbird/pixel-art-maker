@@ -1,7 +1,16 @@
-# pixel-art-maker
+# Pixel Art Maker Project
 
-Udacity Google Scholarship Phase 1  
+## Table of Contents
 
-Project 3 - jQuery Pixel Art Maker
+* [Instructions](#instructions)
+* [Contributing](#contributing)
 
-Aim: to use jQuery to build a one page Pixel Art Maker application.
+## Instructions
+
+To get started, open `designs.js` and start building out the app's functionality.
+
+For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+
+## Contributing
+
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
